@@ -8,7 +8,7 @@ MAINTAINER Pierre Tardy <tardyp@gmail.com>
 # ------------------------------------------------------------------------------
 # Install base
 RUN apt-get update && \
-    apt-get install -y build-essential g++ curl libssl-dev apache2-utils git libxml2-dev sshfs supervisord && \
+    apt-get install -y build-essential g++ curl libssl-dev apache2-utils git libxml2-dev sshfs supervisor && \
 
 # ------------------------------------------------------------------------------
 # Install Node.js
